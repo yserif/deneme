@@ -1,0 +1,26 @@
+*{margin: 0;
+	padding: 0;
+	    font-size: 13px;
+    font-family: "Arial","Roboto","sans-serif";
+}
+.wave_back {
+    height: 100px;
+    background: url(wave2.png);
+    display: block;
+    width: 100%;
+    animation: marquee2 40s linear infinite;
+}
+::selection {
+    background: #F6653C;
+    color: #FFF;
+}
+@keyframes marquee2{0%{background-position:0, 0 }
+    100%{background-position:-1009px, 0 }
+}
+#portal_header {
+    background: -webkit-radial-gradient(center center, circle cover, #0091d5 0%, #0091d5 15%, #004a86 100%);
+    background: -moz-radial-gradient(center center, circle cover, #0091d5 0%, #0091d5 15%, #004a86 100%);
+    background: -ms-radial-gradient(center center, circle cover, #0091d5 0%, #0091d5 15%, #004a86 100%);
+    background: -o-radial-gradient(center center, circle cover, #0091d5 0%, #0091d5 15%, #004a86 100%);
+    background: radial-gradient(center center, circle cover, #0091d5 0%, #0091d5 15%, #004a86 100%);
+}
